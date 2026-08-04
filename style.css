@@ -1,0 +1,67 @@
+:root {
+    --bgColor: rgb(70, 77, 110);
+    --Color: rgb(106, 113, 150);
+    --hoverColor: rgb(85, 91, 129);
+    --strokeColor: rgb(133, 137, 160);
+    --textColor: #bfc4eb;
+}
+
+h2 {
+    color: var(--textColor)
+}
+
+body {
+    margin: 0;
+    background-color: black;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button {
+    height: 96px;
+    width: 96px;
+    background-color: var(--bgColor);
+    color: var(--Color);
+    margin: 10px;
+
+    cursor: pointer;
+
+    border-radius: 20px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: var(--strokeColor);
+}
+
+button:hover {
+    background-color: var(--hoverColor)
+}
+
+.buttons {
+    justify-content: center;
+    display: flex;
+}
+
+.content {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 11%;
+}
+
+.big {
+    font-size: 150px;
+    color: var(--textColor)
+}
+
+#bgVid {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    min-width: 100%;
+    min-height: 100%;
+    opacity: 25%;
+    object-fit: cover
+}
