@@ -8,7 +8,7 @@
 </head>
 <body>
     <video autoplay muted loop id="bgVid">
-        <source src="assets/0000-0288.mp4" type="video/mp4">
+        <source src="assets/0000-0288.mp4" type="video/mp4" id="vidSource">
     </video>
 
     <div class="content">
@@ -30,6 +30,10 @@
         <h2 id="copyMsg"></h2>
     </div class="content">
 
+    <footer>
+        <a onclick="theme('blue')" href="#">Theme 1</a>
+        <a onclick="theme('red')" href="#">Theme 2</a>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>

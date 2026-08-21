@@ -65,3 +65,13 @@ button:hover {
     opacity: 25%;
     object-fit: cover
 }
+
+footer {
+    position: absolute;
+    bottom: 10px;
+    left: 10px
+}
+
+a {
+    color: white;
+}
